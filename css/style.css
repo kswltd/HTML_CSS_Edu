@@ -1,0 +1,90 @@
+.bootstrap-header {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.bootstrap-header-logo {
+	font-family: 'Playfair Display', Georgia, 'Times New Roman',
+		serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+	font-size: 2.25rem;
+}
+
+.bootstrap-header-logo:hover {
+	text-decoration: none;
+}
+
+.display-4 {
+	font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+	.display-4 {
+		font-size: 3rem;
+	}
+}
+
+.flex-auto {
+	flex: 0 0 auto;
+}
+
+.h-250 {
+	height: 250px;
+}
+
+@media (min-width: 768px) {
+	.h-md-250 {
+		height: 250px;
+	}
+}
+
+/*
+ * Footer
+ */
+.bootstrap-footer {
+	padding: 2.5rem 0;
+	color: #727272;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: 0.05rem solid #e5e5e5;
+}
+.bootstrap-footer p:last-child {
+	margin-bottom: 0;
+}
+
+.text-bg-dark {
+	background-color: black;
+}
+
+.display-7 {
+	color: white;
+}
+
+.flex-column {
+	display: grid;
+	border-block: solid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mb-0 {
+	margin: 10px;
+	box-sizing: 500px;
+}
+
+.stretched-link {
+	margin: 10px;
+}
+
+.bg-light {
+	background-color: gainsboro;
+}
+
+/* .position-sticky {
+	position: fixed;
+} */
+
+#html {
+	scroll-behavior: smooth;
+}
+
+.row {
+	flex: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
