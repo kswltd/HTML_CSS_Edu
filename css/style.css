@@ -49,42 +49,11 @@
 	margin-bottom: 0;
 }
 
-.text-bg-dark {
-	background-color: black;
-}
-
-.display-7 {
-	color: white;
-}
-
-.flex-column {
-	display: grid;
-	border-block: solid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-
-.mb-0 {
-	margin: 10px;
-	box-sizing: 500px;
-}
-
-.stretched-link {
-	margin: 10px;
-}
-
-.bg-light {
-	background-color: gainsboro;
-}
-
-/* .position-sticky {
-	position: fixed;
-} */
-
 #html {
 	scroll-behavior: smooth;
 }
 
-.row {
-	flex: grid;
+.flex-column {
+	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
